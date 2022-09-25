@@ -1,1 +1,4 @@
-Loading the raw data csv files as downloaded from https://www.tdlr.texas.gov/LicenseSearch/licfile.asp
+Loading the (mostly) raw data csv files as downloaded from https://www.tdlr.texas.gov/LicenseSearch/licfile.asp
+Changes made prior to load: Removing individual licensee names - 
+although this data is publicly available, I am removing names (NAME and BUSINESS NAME columns) prior to loading here for privacy of the individuuals.
+I did not utilize any names in my analysis and did not include name fields in my sql queries.
