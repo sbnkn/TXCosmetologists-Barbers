@@ -2,3 +2,30 @@ Loading the (mostly) raw data csv files as downloaded from https://www.tdlr.texa
 Changes made prior to load: Removing individual licensee names - 
 although this data is publicly available, I am removing names (NAME and BUSINESS NAME columns) prior to loading here for privacy of the individuuals.
 I did not utilize any names in my analysis and did not include name fields in my sql queries.
+
+
+Key for Subtype Fields:
+  Cosmetologist
+    (Subtype)
+       FA  - Facialist
+       FI  - Facialist Instructor
+       HW  - Hair Braiding/Weaving Specialist
+       IN  - Operator Instructor
+       MA  - Manicurist
+       MI  - Manicurist Instructor
+       OP  - Operator
+       SH  - Shampoo Specialist
+       WG  - Wig Specialist
+       WI  - Wig Specialist Instructor
+
+    Barber
+    (Subtype)
+       BA  - Class A Barber
+       BT  - Barber Technitian
+       MA  - Manicurist
+       TE  - Instructor
+       BC  - Barber School
+       BS  - Barber Shop
+       BR  - Barber Booth Rental
+       MR  - Manicurist Booth Rental
+       MS  - Manicurist Shop
